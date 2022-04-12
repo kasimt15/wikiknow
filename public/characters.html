@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,25 +7,101 @@
     <title>Characters</title>    
 </head>
 
+<style>
+
+h1 {text-align: center;}
+p {text-align: center;}
+
+    img {
+      width: 100%;
+      height: auto;
+      vertical-align: middle;
+    }
+
+    .pics_in_a_row {
+      display: flex;
+    }
+    
+    .img1 { flex: 1.6; }
+    .img2 { flex: 1.45; }
+    .img3 { flex: 1.51; }
+    .img4 { flex: 1.5; }
+    .img5 { flex: 1.5; }
+    .img6 { flex: 1.5; }
+    .img7 { flex: 1.5; }
+    .img8 { flex: 1.5; }
+    .img9 { flex: 1.54; }
+    .img10 { flex: 1.5; }
+    
+    
+.pics_in_a_row {
+  margin: 25px 0;
+}
+
+.pics_in_a_row > div:not(:last-child) {
+  margin-right: 2%;
+}
+    </style>
+
 <body>
     <header>
         <nav>
             <a href="index.html">Wikiknows</a>
-            <p>Characters</p>
         </nav>
     </header>
 
-<img src="eren.jpg" alt="Eren"> 
-<img src="mikasa.jpg" alt="Mikasa">
-<img src="armin.jpg" alt="Armin">
-<img src="connie.jpg" alt="Connie">
-<img src="levi.jpg" alt="Levi">
-<img src="hange.jpg" alt="Hange">
-<img src="erwin.jpg" alt="Erwin">
-<img src="reiner.jpg" alt="Reiner">
-<img src="historia.jpg" alt="Historia">
-<img src="pieck.jpg" alt="Pieck">
-<img src="ymir.jpg" alt="Ymir">
+    <h1> Characters </h1>
+
+    <div class='container'>
+  
+        <div class='pics_in_a_row'>
+          <div class='img1'>
+            <img src='eren.jpg'></a>
+            <p>Eren Yeager</p>
+          </div>
+          <div class='img2'>
+            <img src='mikasa.jpg'></a>
+            <p>Mikasa Ackerman</p>
+          </div>
+          <div class='img3'>
+           <img src='armin.jpg'></a>
+           <p>Armin Arlert</p>
+          </div>
+          <div class='img4'>
+            <img src='reiner.jpg'></a>
+            <p> Reiner Braun </p>
+          </div>
+          <div class='img5'>
+            <img src='historia.jpg'></a>
+            <p> Historia Reiss</p>
+          </div>
+        </div>
+
+        <div class='container'>
+  
+          <div class='pics_in_a_row'>
+            <div class='img6'>
+              <img src='levi.jpg'></a>
+              <p> Levi Ackerman</p>
+            </div>
+            <div class='img7'>
+              <img src='hange.jpg'></a>
+              <p>Hange Zoë</p>
+            </div>
+            <div class='img8'>
+             <img src='erwin.jpg'></a>
+             <p>Erwin Smith</p>
+            </div>
+            <div class='img9'>
+              <img src='pieck.jpg'></a>
+              <p>Pieck Finger</p>
+            </div>
+            <div class='img10'>
+              <img src='ymir.jpg'></a>
+              <p>Ymir Fritz</p>
+            </div>
+          </div>
+
 
 
 </body>
