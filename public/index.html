@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
     <style>
-   nav{
+h1 {text-align: center;}
+p {text-align: left;}
+
+       nav{
       height: 80px;
       width: 70%;
     }
@@ -20,8 +23,39 @@
       display: inline-block;
       line-height: 40px;
       margin: 0 5px;
-    }
-        
+    }   
+       
+       
+header{
+  color: white;
+  position:fixed;
+  width: 100%;
+  color: black;
+  background-color: black;
+  flex-grow:1;
+  padding: 0.2em;
+}
+
+main{
+  color: black;
+  flex-grow: 7;
+}
+
+
+body {
+  background-image: url('https://i.pinimg.com/originals/ce/35/9b/ce359bd3f495bbd4426acad377a4267d.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  margin: 20;;
+  background-size: 100% 100%;
+}
+
+       
     </style>
   
 </head>
@@ -35,120 +69,20 @@
 
     <nav>
 
-     <ul>
-      <li><a href= "index.html"> Wikiknows</a></li>
-      <li><a href="login.html">log in/sign up </a></li>
-      <li><a href="page2.html">about the show</a></li>
-      <li><a href="characters.html">characters</a></li>
-      <li><a href="manga.html">manga</a></li>
-     </ul>
+      <ul>
+        <li><a href= "index.html"><button> Wikiknows </button></a></li>
+        <li><a href="login.html"><button> Log in / Sign up </button></a></li>
+        <li><a href="page2.html"><button> About the show</button></a></li>
+        <li><a href="characters.html"><button> Characters </button></a></li>
+        <li><a href="manga.html"><button> Manga </button></a></li>
+       </ul>
 
      </nav>
 
   </header>
-    
-    <section id="log in/sign up page">
-  <h2>log in/sign up</h2>
-      
-  <form>
-  <h2>sign up</h2>
-    
-    <label for="email"> 
-    email address: <input type="email" id="email" name="email"  placeholder="email address" required> 
-    </label>
-
-  <br />
-    
-    <label for="username"> 
-     username :  <input type="username" id="username" name="username"  placeholder="username" required> 
-    </label>
-
-  <br />
-    
-    <label for="password"> 
-     password :  <input type="password" id="password" name="password"  placeholder="password" required> 
-    </label>
-
-   <br />
-     <label for="confirm password"> 
-    confirm password :  <input type="confirm password" id="confirm password" name="confirm password"  placeholder="confirm password" required> 
-    </label>
-    
-    <br />
-    
-  <input type="submit" value="create account" />
-
-  </form>
-
-      <h2>log in</h2>
-
-       <label for="username"> 
-     username :  <input type="username" id="username" name="username"  placeholder="username" required> 
-    </label>
-
-      <br />
-      
-      <label for="password"> 
-     password :  <input type="password" id="password" name="password"  placeholder="password" required> 
-    </label>
-
-      <br/>
-
-      <input type="submit" value="log in" />
-
-    <form>   
-</section>
-    
-<section id="about the show">
-
-   <h1> about the show </h1>
-   
-     <details>
-      <summary>Description</summary>
-
-        <p>Insert general info here</p>
-    </details>
-
-    <details>
-      <summary>Seasons</summary>
-
-      <p>List of seasons etc...</p>
-    </details>
-
-  <details>
-      <summary>Episodes</summary>
-
-      <p>epsiode info etc...</p>
-  </details>
-
-   </section>
-
-  <br />
-        
-   <section id="characters">
-
-   <h1> characters </h1>
-  * code and info here*
-  </section>
-
-    <br />
-
-    <section id="manga">
-
-   <h1> manga </h1>
-
-    <label for="comments"> 
-     comments: <textarea name="comments" rows="5" placeholder="comment here!"> </textarea>
-     </label>
-
-    </section>
-    
-    
-    
-    
-    
-    
-    
+  
+  
+    <main>
     
     </main>
     
