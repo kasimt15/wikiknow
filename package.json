@@ -6,7 +6,7 @@
   "scripts": {
     "start": "cd public && live-server --port=8080",
     "login": "firebase login --no-localhost",
-    "start": "firebase serve"
+    "start1": "firebase serve"
   },
   
   "repository": {
