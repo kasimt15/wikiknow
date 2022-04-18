@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cd public && live-server --port=8080"
+    "start": "cd public && live-server --port=8080",
+    "login": "firebase login --no-localhost",
+    "start": "firebase serve"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uwidcit/mat-starter.git"
