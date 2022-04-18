@@ -9,7 +9,6 @@
     "start1": "firebase serve --token $FBTOKEN",
     "deploy": "firebase deploy --token $FBTOKEN"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uwidcit/mat-starter.git"
@@ -22,6 +21,7 @@
   },
   "homepage": "https://github.com/uwidcit/mat-starter#readme",
   "dependencies": {
+    "@supabase/supabase-js": "^1.34.1",
     "live-server": "^1.2.1"
   }
 }
