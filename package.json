@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cd public && live-server --port=8080",
-    "login": "firebase login  --token $FBTOKEN --no-localhost",
+    "login": "firebase login --token $FBTOKEN --no-localhost",
     "start1": "firebase serve --token $FBTOKEN",
     "deploy": "firebase deploy --token $FBTOKEN"
   },
